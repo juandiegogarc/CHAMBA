@@ -1,0 +1,19 @@
+
+.red{
+    text-align: center;
+    padding: 0px;
+    margin: auto;
+}
+.red li a img{
+     width: 80px;
+     height: 80px;
+ }
+
+ .red li{
+     display: inline-block;
+ }
+
+ h6{
+     color: cornsilk;
+ }
+ 

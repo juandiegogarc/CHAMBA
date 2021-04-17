@@ -1,0 +1,41 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+
+div{
+
+    background: url(https://i.pinimg.com/originals/8d/b5/6a/8db56abe3f2f14175955ecee7ad9b7bc.jpg) no-repeat;
+    width: 687px;
+    height: 700px; 
+    float:right  
+      
+}
+
+img{
+    height: 700px;
+    width: 659px;
+}
+ body{
+     /**background-color: #34E9D7;**/
+     background: #ef8354; 
+ }
+
+ .arti article{
+     list-style: none;
+     color: cornsilk;
+     padding: 120px;
+     font: bold 50px verdana;
+     text-align: center;
+ }
+
+ .arti p{
+     list-style: none;
+     padding: 25px;
+     color: cornsilk;
+     font: bold 15px verdana;
+     text-align: justify;
+ }
+
+

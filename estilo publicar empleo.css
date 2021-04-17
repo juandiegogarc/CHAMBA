@@ -1,0 +1,31 @@
+body{
+    background: url(https://i.pinimg.com/originals/8d/b5/6a/8db56abe3f2f14175955ecee7ad9b7bc.jpg) no-repeat;
+}
+
+h1{
+    text-align: center;
+    color: cornsilk;
+}
+
+.enc ul{
+    list-style: none;
+    padding: 0px;
+    background:#22204F;
+    margin: auto;
+    border-radius: 20px;
+}
+
+ .enc li a{
+     text-decoration: none  ;
+     color: cornsilk; 
+     padding: 35px;   
+     display: block;   
+ }
+ .enc li{
+     display: inline-block;
+     text-align: center;
+ }
+ .enc li a:hover{
+     background: #ef8354; 
+     border-radius: 20px;
+ } 

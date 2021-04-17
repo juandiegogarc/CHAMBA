@@ -1,0 +1,82 @@
+body{
+    background: url(https://i.pinimg.com/originals/8d/b5/6a/8db56abe3f2f14175955ecee7ad9b7bc.jpg) no-repeat;
+}
+
+.nos{
+    position: relative;
+    width: 1000px;
+    height: 900px;
+    padding-left: 10px;
+    padding-top: 6px;
+    background-color:#22204F;
+    border-radius: 20px;
+    margin: auto;
+}
+
+.nos h3{
+    list-style: none;
+    color: cornsilk;
+    padding: 30px;
+    font: bold 50px verdana;
+    text-align: center;
+}
+
+.nos p{
+    list-style: none;
+    padding: 40px;
+    color: cornsilk;
+    font: bold 15px verdana;
+    text-align: justify;
+}
+
+.reds{
+    text-align: center;
+    padding: 0px;
+    margin: auto;
+}
+.reds li a img{
+     width: 200px;
+     height: 150px;
+ }
+
+ .reds li{
+     display: inline-block;
+ }
+
+ h6{
+    list-style: none;
+    padding: 30px;
+    color: cornsilk;
+    font: bold 18px verdana;
+    text-align: center;
+     
+ }
+
+ h1{
+    text-align: center;
+    color: cornsilk;
+}
+
+ .enc ul{
+    list-style: none;
+    padding: 0px;
+    background:#22204F;
+    margin: auto;
+    border-radius: 20px;
+}
+
+ .enc li a{
+     text-decoration: none  ;
+     color: cornsilk; 
+     padding: 35px;   
+     display: block;   
+ }
+ 
+.enc li{
+    display: inline-block;
+    text-align: center;
+}
+.enc li a:hover{
+    background: #ef8354; 
+    border-radius: 20px;
+} 
