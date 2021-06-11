@@ -1,0 +1,51 @@
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <title>CHAMBA empleate ya!!!</title>
+        <meta name="description" content="Esta página web de para busca de empleos" />
+        <meta name="author" content="Juan Garcia Maldonado" />
+        <meta name="keywords" content="empleos, empleo, empleate, chamba, pega, empleos en bolivia, empleos en la paz, empleos en el alto, cupos de empleos"/>
+        <link rel="stylesheet" href="./estilo publicar empleo.css">
+    </head>
+    <body>
+        <div class="enc">
+            <h1>PUBLICAR EMPLEO</h1>
+            <ul>
+                <li><a href="./../INDEX/CHAMBA.HTML">INICIO</a></li>
+                <li><a href="./../BUSCAR EMPLEO/BUSCAR EMPLEO.HTML">BUSCAR EMPLEO</a></li>
+                <li><a href="./PUBLICAR EMPLEO.HTML">PUBLICAR EMPLEO</a></li>  
+                <li><a href="./../NOSOTROS/NOSOTROS.HTML">NOSOTROS</a></li>             
+                <li><a href="./../BUZÓN/BUZÓN.HTML">BUZÓN</a></li>
+            </ul>
+         </div>
+         <br>
+        <div class="form">
+            <form action="./../php/formulario.php" method="POST">
+                <h2>REGISTRATE YA!!!</h2>
+                <P>Para publicar cualquier nota de empleo se requiere que te registres.</P>
+                <h3>NOMBRE</h3>
+                <label for="nombre">Su nombre</label>
+                <br>
+                <input type="text" name="nombre" placeholder="Alberto Raul Garcia Garmendia" required>
+                <h3>CORREO</h3>
+                <label for="correo">Su direccion de correo</label>
+                <br>
+                <input type="email" name="correo" placeholder="ejemplo123@gmail.com" required>
+                <h3>DIRECCION</h3>
+                <label for="direccion">Su dirección</label>
+                <br>
+                <input type="text" name="direccion" placeholder="Zona miraflores calle x" required>
+                <h3>TELEFONO</h3>
+                <label for="telefono">Su numero de celular</label>
+                <br>
+                <input type="int" name="telefono" placeholder="12345678" required>
+                <br>
+                <br>
+                <input type="submit" value="REGISTRARSE"  >
+                <br>
+                <br>
+                <button onclick="window.location.href='SESION.HTML.html'">YA ESTOY REGISTRADO</button>
+            </form>      
+        </div>
+    </body>
+</html>

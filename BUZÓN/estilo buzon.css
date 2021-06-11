@@ -1,0 +1,71 @@
+body{
+    background: url(https://i.pinimg.com/originals/8d/b5/6a/8db56abe3f2f14175955ecee7ad9b7bc.jpg) no-repeat;
+}
+
+.form{
+    position: relative;
+    width: 500px;
+    height: 965px;
+    padding-left: 10px;
+    padding-top: 6px;
+    background-color: #22204F;
+    border-radius: 20px;
+    margin: auto;
+    color: azure;
+}
+
+input[type=text],[type=email],[type=int]{
+    width: 470px;
+    height: 35px;
+    font: 14px normal normal uppercase helvetica, arial, serif;
+}
+
+textarea{
+    width: 470px;
+    height: 110px;
+    font: 14px normal normal uppercase helvetica, arial, serif;
+}
+
+input[type=submit]{
+    position: relative;
+    width: 150px;
+    height: 40px;
+    border-radius: 20px;
+    margin-left: 150px;
+    border: 0px;
+    background-color:blanchedalmond;
+    font: 14px normal normal uppercase helvetica, arial, serif;
+    color: black;
+}
+h2{
+    text-align: center;
+    color: azure;
+}
+
+h1{
+    text-align: center;
+    color: cornsilk;
+}
+
+.enc ul{
+    list-style: none;
+    padding: 0px;
+    background:#22204F;
+    margin: auto;
+    border-radius: 20px;
+}
+
+ .enc li a{
+     text-decoration: none  ;
+     color: cornsilk; 
+     padding: 35px;   
+     display: block;   
+ }
+ .enc li{
+     display: inline-block;
+     text-align: center;
+ }
+ .enc li a:hover{
+     background: #ef8354; 
+     border-radius: 20px;
+ } 
