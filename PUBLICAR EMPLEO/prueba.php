@@ -10,7 +10,7 @@ $correo=$_POST['correo'];
 $direccion=$_POST['direccion'];
 $telefono=$_POST['telefono'];
 $usuario=$_POST['usuario'];
-$contraseña=$_POST['contraseña'];
+//$contraseña=$_POST['contraseña'];
 
 //hacemos la sentencia de mysql
 
