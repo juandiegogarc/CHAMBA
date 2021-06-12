@@ -1,13 +1,16 @@
 <?php
 
-$usuario=$_POST['usuario'];
+$conex = mysqli_connect("localhost","root","","ejemplo");
+
+
+$cuenta=$_POST['cuenta'];
 $contraseña=$_POST['contraseña'];
 session_start();
-$_SESSION['usuario']=$usuario;
+$_SESSION['cuenta']=$cuenta;
 
-$conexion=mysqli_connect("localhost","root","","chamba");
+$conexion=mysqli_connect("localhost","root","","ejemplo");
 
-$consulta="SELECT*FROM registros where usuario='$usuario' and contraseña='$contraseña'";
+$consulta="SELECT*FROM datoss where cuenta='$cuenta' and contraseña='$contraseña'";
 $resultado=mysqli_query($conexion,$consulta);
 
 $filas=mysqli_rows($resultado);
